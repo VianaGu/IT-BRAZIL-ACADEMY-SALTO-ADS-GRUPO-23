@@ -1,2 +1,6 @@
-# ProjetoInterdisciplinaSEM2
-Projeto desenvolvido por alunos do segundo semestre de Análise e Desenvolvimento de sistemas 
+# IT-BRAZIL-ACADEMY-ADS-SALTO-GRUPO
+
+## Nomes do participantes
+
+Gustavo Oliveira Viana RGM: 35741406
+Felipe Pampolin Miessi Luchini RGM: 35642009 
