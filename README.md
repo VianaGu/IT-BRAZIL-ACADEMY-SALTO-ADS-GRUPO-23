@@ -2,5 +2,5 @@
 
 ## Nomes do participantes
 
-Gustavo Oliveira Viana RGM: 35741406
+<p>Gustavo Oliveira Viana RGM: 35741406</p>
 Felipe Pampolin Miessi Luchini RGM: 35642009 
