@@ -1,6 +1,6 @@
 # IT-BRAZIL-ACADEMY-ADS-SALTO-GRUPO
 
-## Nomes do participantes
+## Nomes do participantes 👇
 
 | Nome            | Função             | RGM            | 
 |-----------------|--------------------|----------------|
@@ -12,16 +12,16 @@
 
 
 <!-- imagem para mostrar a base do projeto  -->
- ![Imagem de projeto base](assetsREADME/printVideo.png)
+![Imagem de projeto base](assetsREADME/PrintVideo.png)
 
 ### Esse [video](https://www.youtube.com/watch?v=WWSqJVakfVY) que usamos de inpiração para o projeto 
 
-### O que seria o nosso projeto?
+### O que seria o nosso projeto❓  
 
 Basicamente um carrinho de controle remoto, só que ao invés de usar o controle remoto, estamos utilizando um celular que conectamos via bluetooth
-(Descrição chique)
+<!--(Descrição chique)-->
 
-### Lista de material 
+### Lista de material📖
 - Placa esp32 (modelo)
 - Carrinho de controle remoto 
 - Celular (nenhuma marca específica)
