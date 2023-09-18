@@ -27,4 +27,3 @@ Basicamente um carrinho de controle remoto, só que ao invés de usar o controle
 - Buzzer Ativo
 - LEDS e Resistores (220 Ohms para Cada LED + 1 de 3.3KOhms + 1 de 5.6K Ohms)
 - Jumpers
-- Transistor 2222A
