@@ -2,11 +2,14 @@
 
 ## Nomes do participantes
 
-Fabíola Simionato Dos Santos RGM: 35735384  
-Felipe Pampolin Miessi Luchini RGM: 35642009  
-Fernada Oliveira Da Rocha RGM: 35233885  
-Gustavo Oliveira Viana RGM: 35741406  
-Isabela Feitosa Scalet RGM: 35984961   
+| Nome            | Função             | RGM            | 
+|-----------------|--------------------|----------------|
+| Fabíola Simionato Dos Santos | Desenvolvedor | 35735384 |
+| Felipe Pampolin Miessi Luchini | Designer | 35642009 |
+| Fernada Oliveira Da Rocha | Gerente de Projeto | 35233885 |
+| Gustavo Oliveira Viana | Focal, Desenvolvedor | 35741406 |
+| Isabela Feitosa Scalet | Testadora | 35984961 |
+
 
 <!-- imagem para mostrar a base do projeto  -->
  ![Imagem de projeto base](assetsREADME/printVideo.png)
