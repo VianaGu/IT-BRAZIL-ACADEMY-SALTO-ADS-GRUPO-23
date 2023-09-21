@@ -5,7 +5,7 @@
 | Nome            | Função             | RGM            | 
 |-----------------|--------------------|----------------|
 | Fabíola Simionato Dos Santos | Desenvolvedor | 35735384 |
-| Felipe Pampolin Miessi Luchini | Designer | 35642009 |
+| Felipe Pampolin Miessi Luchini | Desenvolvedor | 35642009 |
 | Fernada Oliveira Da Rocha | Gerente de Projeto | 35233885 |
 | Gustavo Oliveira Viana | Focal, Desenvolvedor | 35741406 |
 | Isabela Feitosa Scalet | Testadora | 35984961 |
