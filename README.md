@@ -6,9 +6,9 @@
 |-----------------|--------------------|----------------|
 | Fabíola Simionato Dos Santos | Desenvolvedor | 35735384 |
 | Felipe Pampolin Miessi Luchini | Desenvolvedor | 35642009 |
-| Fernada Oliveira Da Rocha | Gerente de Projeto | 35233885 |
-| Gustavo Oliveira Viana | Focal, Desenvolvedor | 35741406 |
-| Isabela Feitosa Scalet | Testadora | 35984961 |
+| Fernada Oliveira Da Rocha | Desenvolvedor | 35233885 |
+| Gustavo Oliveira Viana | Focal, Lider Dev | 35741406 |
+| Isabela Feitosa Scalet | Desenvolvedora | 35984961 |
 
 
 <!-- imagem para mostrar a base do projeto  -->
