@@ -21,8 +21,7 @@
 Basicamente um carrinho de controle remoto, só que ao invés de usar o controle remoto, estamos utilizando um celular que conectamos via bluetooth
 <!--(Descrição chique)-->
 ### Pré Requisitos do projeto 
-Instalar [Node.js](https://nodejs.org/en)  
-Instalar Johnny-five  `npm install johnny-five *`  
+
 
 ### Lista de material📖
 - Placa esp32 (modelo)
