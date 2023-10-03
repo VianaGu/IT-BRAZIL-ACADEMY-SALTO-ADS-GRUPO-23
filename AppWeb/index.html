@@ -7,8 +7,33 @@
     
     <!-- CSS -->
     <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body, html{
+            height: 100%;
+        }
+        .container{
+            display: flexbox;
+            justify-content: center;
+            margin-top: 20em;
+        }
+        body{
+            display: flex;
+            align-items: middle;
+            justify-content: center;
+            
+        }
+        
         .btn{
             text-decoration: none;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(146, 78, 211);
+            text-align: center;
+            border-radius: 10%;
+            color: #FFF;
             
         }
     </style>
@@ -22,21 +47,23 @@
 
 </head>
 <body>
-    <!-- Botão para Frente -->
-    <a date-state="" class="btnFrente btn">
-        FRENTE
-    </a>
-    <!-- Botão para Trás -->
-    <a class="btnAtras btn">
-        ATRÁS
-    </a>
-    <!-- Botão para a Esquerda -->
-    <a class="btnEsquerda btn">
-        ESQUERDA
-    </a>
-    <!-- Botão para a Direita -->
-    <a class="btnDireita btn">
-        DIREITA
-    </a>
+    <div class="container">    
+        <!-- Botão para Frente -->
+        <a href="W" class="btnFrente btn">
+            FRENTE
+        </a>
+        <!-- Botão para Trás -->
+        <a href="S" class="btnAtras btn">
+            ATRÁS
+        </a>
+        <!-- Botão para a Esquerda -->
+        <a href="A" class="btnEsquerda btn">
+            ESQUERDA
+        </a>
+        <!-- Botão para a Direita -->
+        <a href="D" class="btnDireita btn">
+            DIREITA
+        </a>
+    </div>    
 </body>
 </html>
