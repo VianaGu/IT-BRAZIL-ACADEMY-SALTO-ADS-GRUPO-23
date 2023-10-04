@@ -8,6 +8,7 @@
 */
 
 #include <ESP8266WiFi.h>
+#include "motor.h"
 
 #ifndef STASSID
 #define STASSID "MI 9"
@@ -66,18 +67,21 @@ void loop() {
   Serial.println(req);
 
   // Match the request
-  int val;
-  if (req.indexOf(F("/gpio/0")) != -1) {
-    val = 0;
-  } else if (req.indexOf(F("/gpio/1")) != -1) {
-    val = 1;
-  } else {
-    Serial.println(F("invalid request"));
-    val = digitalRead(LED_BUILTIN);
+  /* Controles do carrinho  */
+  char val;
+  if (req.indexOf(F("/W")) != -1) {
+    moveFrente();
+  } else if (req.indexOf(F("/S")) != -1) {
+    moveRe();
+  } else if(req.indexOf(F("/D")) != -1){
+    direita();
+  } else if(req.indexOf(F("/A")) != -1){
+    esquerda();
   }
-
-  // Set LED according to the request
-  digitalWrite(LED_BUILTIN, val);
+  else {
+    Serial.println(F("invalid request"));
+    parar();
+  }
 
   // read/ignore the rest of the request
   // do not client.flush(): it is for output only, see below
@@ -89,11 +93,10 @@ void loop() {
   // Send the response to the client
   // it is OK for multiple small client.print/write,
   // because nagle algorithm will group them into one single packet
-  client.print(F("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\nGPIO is now "));
-  client.print((val) ? F("high") : F("low"));
-  client.print(F("<br><br>Click <a href='http://"));
+  client.print(F("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\n"));
+  client.print(F("<a href='http://"));
   client.print(WiFi.localIP());
-  client.print(F("/gpio/1'>here</a> to switch LED GPIO on, or <a href='http://"));
+  client.print(F("/W'>FRENTE</a> to switch LED GPIO on, or <a href='http://"));
   client.print(WiFi.localIP());
   client.print(F("/gpio/0'>here</a> to switch LED GPIO off.</html>"));
 

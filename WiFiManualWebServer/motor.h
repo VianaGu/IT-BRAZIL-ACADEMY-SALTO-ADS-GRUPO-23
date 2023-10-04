@@ -9,6 +9,7 @@ void moveFrente(){
   
   digitalWrite(pin3, LOW);
   digitalWrite(pin4, LOW);
+  Serial.print("frente");
 }
 
 void frenteDireita(){
