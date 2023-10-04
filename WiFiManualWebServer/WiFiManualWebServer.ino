@@ -94,6 +94,8 @@ void loop() {
   // it is OK for multiple small client.print/write,
   // because nagle algorithm will group them into one single packet
   client.print(F("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\n"));
+  client.print(F("<head>"));
+  client.print(F("</head>"));
   client.print(F("<a href='http://"));
   client.print(WiFi.localIP());
   client.print(F("/W'>FRENTE</a> to switch LED GPIO on, or <a href='http://"));
