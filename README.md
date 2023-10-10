@@ -19,28 +19,19 @@
 ### O que seria o nosso projeto❓  
 
 Basicamente um carrinho de controle remoto, só que ao invés de usar o controle remoto, estamos utilizando um celular que conectamos via bluetooth
-<!--(Descrição chique)-->
-### Pré Requisitos do projeto 
+<!--(Descrição chique) @Fabíola está fazendo/fez -->
+### Dependências  
 
 
 ### Lista de material📖
-- Placa esp32 (modelo)
+- Placa esp8266 (NodeMCU)
 - Carrinho de controle remoto 
-- Celular (nenhuma marca específica)
-- Placa de PCB Ilhada 
+- Celular (nenhuma marca específica) 
 - Mini Ponte H L298N
 - Buzzer Ativo
-- LEDS e Resistores (220 Ohms para Cada LED + 1 de 3.3KOhms + 1 de 5.6K Ohms)
+- LEDS 
+- Resistores (220 Ohms para Cada LED)
 - Jumpers
 
 
-<!-- ### Valor dos materiais 
 
-- Placa esp32 (modelo) R$34.00 - R$50.00
-- Carrinho de controle remoto R$25 - R$55.00
-- Celular (nenhuma marca específica) - já tinhamos 
-- Placa de PCB Ilhada R$7.00 - R$15.00
-- Mini Ponte H L298N R$7.00 - R$15.00
-- Buzzer Ativo R$1.50 - R$7.00
-- LEDS e Resistores (220 Ohms para Cada LED + 1 de 3.3KOhms + 1 de 5.6K Ohms) LEDs ~R$15.00 pct com 5 / resistor pct com 10 ~R$2.00
-- Jumpers ~R$20.00 - 40 fios -->
