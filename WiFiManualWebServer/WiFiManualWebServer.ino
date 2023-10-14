@@ -96,7 +96,18 @@ void loop() {
   client.print(F("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\n"));
   client.print(F("<head>"));
   client.print(F("</head>"));
-  client.print(F("<a href='http://"));
+  /* body */
+  client.println("<body>");
+    client.print(F("<main>"));
+      client.print(F("<section class='joystick center'>"));
+        client.println(F("<div class='animations'>"));
+          client.println(F("<aside class='left-hand'>"));
+            client.println(F("<div class='controler'>"));
+              client.print("<a href='http://");
+              client.print(WiFi.localIP());
+              client.println("/A' class='left'>teste</a> qualquer coisa");
+  /* termina body */
+  client.println("<a href='http://");
   client.print(WiFi.localIP());
   client.print(F("/W'>FRENTE</a> to switch LED GPIO on, or <a href='http://"));
   client.print(WiFi.localIP());
