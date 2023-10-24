@@ -10,10 +10,12 @@
 #include <ESP8266WiFi.h>
 #include "motor.h"
 
+int a1 = 1;
 #ifndef STASSID
 #define STASSID "MI 9"
-#define STAPSK "12345678"
+#define STAPSK "a4gy8695"
 #endif
+
 
 const char* ssid = STASSID;
 const char* password = STAPSK;
@@ -23,11 +25,8 @@ const char* password = STAPSK;
 WiFiServer server(80);
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115200); 
 
-  // prepare LED
-  pinMode(LED_BUILTIN, OUTPUT);
-  digitalWrite(LED_BUILTIN, 0);
 
   // Connect to WiFi network
   Serial.println();
@@ -54,6 +53,8 @@ void setup() {
 }
 
 void loop() {
+  digitalWrite(pin1, HIGH);
+ 
   // Check if a client has connected
   WiFiClient client = server.accept();
   if (!client) { return; }
@@ -77,6 +78,8 @@ void loop() {
     direita();
   } else if(req.indexOf(F("/A")) != -1){
     esquerda();
+  } else if(req.indexOf(F("/P")) != -1){
+    parar();
   }
   else {
     Serial.println(F("invalid request"));
@@ -95,6 +98,9 @@ void loop() {
   // because nagle algorithm will group them into one single packet
   client.print(F("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\n"));
   client.print(F("<head>"));
+    client.println("<style>");
+      client.println( );
+    client.println("</style>");
   client.print(F("</head>"));
   /* body */
   client.println("<body>");
@@ -103,15 +109,32 @@ void loop() {
         client.println(F("<div class='animations'>"));
           client.println(F("<aside class='left-hand'>"));
             client.println(F("<div class='controler'>"));
+              /* esquerda */
               client.print("<a href='http://");
               client.print(WiFi.localIP());
-              client.println("/A' class='left'>teste</a> qualquer coisa");
+              client.println("/A' class='left'>ESQUERDA</a>");
+              /* fim esquerda */
+              /* direita */
+              client.println("<a href='http://");
+              client.print(WiFi.localIP());
+              client.println("/D' class='right'>DIREITA</a>");
+              /* fim direita */
+              /* frente  */
+              client.println("<a href='http://");
+              client.print(WiFi.localIP());
+              client.println("/W' class='top'>FRENTE</a>");
+              /* fim frente */
+              /* atras */
+              client.println("<a href='http://");
+              client.print(WiFi.localIP());
+              client.println("/S' class='bottom'>ATRAS</a>");
+              /* fim atras */
+              /* parar  */
+              client.println("<a href='http://");
+              client.print(WiFi.localIP());
+              client.println("/P' class='stop'>PARAR</a>");
+              /* fim parar */
   /* termina body */
-  client.println("<a href='http://");
-  client.print(WiFi.localIP());
-  client.print(F("/W'>FRENTE</a> to switch LED GPIO on, or <a href='http://"));
-  client.print(WiFi.localIP());
-  client.print(F("/gpio/0'>here</a> to switch LED GPIO off.</html>"));
 
   // The client will actually be *flushed* then disconnected
   // when the function returns and 'client' object is destroyed (out-of-scope)
