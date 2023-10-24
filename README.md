@@ -13,6 +13,7 @@
 
 <!-- imagem para mostrar a base do projeto  -->
 ![Imagem de projeto base](assetsREADME/PrintVideo.png)
+![]()
 
 ### Esse [video](https://www.youtube.com/watch?v=WWSqJVakfVY) que usamos de inpiração para o projeto 
 

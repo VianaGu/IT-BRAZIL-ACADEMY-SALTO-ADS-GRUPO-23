@@ -1,7 +1,7 @@
-#define pin1 10
-#define pin2 9
-#define pin3 8
-#define pin4 7
+#define pin1 0
+#define pin2 1
+#define pin3 2
+#define pin4 3
 
 void moveFrente(){
   digitalWrite(pin1, HIGH);
@@ -9,7 +9,7 @@ void moveFrente(){
   
   digitalWrite(pin3, LOW);
   digitalWrite(pin4, LOW);
-  Serial.print("frente");
+  Serial.println("frente");
 }
 
 void frenteDireita(){
