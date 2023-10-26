@@ -16,6 +16,7 @@
 ![Imagem do dia 10/10](assetsREADME/IMG_1198.jpg)
 ![Imagem do dia 17/10](assetsREADME/IMG_1659.jpg)
 
+
 ### Esse [video](https://www.youtube.com/watch?v=WWSqJVakfVY) que usamos de inpiração para o projeto 
 
 ### O que seria o nosso projeto❓  
