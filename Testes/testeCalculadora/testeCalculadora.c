@@ -17,7 +17,7 @@ printf("Teste realizado com FALHA para os numeros %d e %d\n", primeiroNumero, se
 bool TesteSoma(int primeiroNumero, int segundoNumero)
 {
 int resultado = soma(primeiroNumero,segundoNumero);
-int operacaoEsperada = primeiroNumero + segundoNumero-1;
+int operacaoEsperada = primeiroNumero + segundoNumero;
 
 bool testeValido = false;
 
