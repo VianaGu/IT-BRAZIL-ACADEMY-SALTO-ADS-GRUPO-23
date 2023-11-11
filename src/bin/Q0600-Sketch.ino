@@ -41,6 +41,12 @@ void loop() {
     comando = btSerial.read();
   }
 
+  funcaoBasicaDeMovimento();
+}
+
+void funcoesBasicasDeMovimento(){
+	
+// LÓGICA DE COMANDOS 
   switch (comando) {
     case 'F': {
         moveFrente();
@@ -80,6 +86,4 @@ void loop() {
       }
   }
 }
-
-
 // IMPLEMENTO DE FUNÇÕES
