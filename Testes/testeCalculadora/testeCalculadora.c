@@ -4,7 +4,7 @@
 
 #include "soma.h"
 
-#define LIMITE_TESTE 20
+#define LIMITE_TESTE 30
 
 void ValidaResultado(bool testeValido, int primeiroNumero, int segundoNumero)
 {
@@ -17,7 +17,7 @@ printf("Teste realizado com FALHA para os numeros %d e %d\n", primeiroNumero, se
 bool TesteSoma(int primeiroNumero, int segundoNumero)
 {
 int resultado = soma(primeiroNumero,segundoNumero);
-int operacaoEsperada = primeiroNumero + segundoNumero;
+int operacaoEsperada = primeiroNumero + segundoNumero-1;
 
 bool testeValido = false;
 
