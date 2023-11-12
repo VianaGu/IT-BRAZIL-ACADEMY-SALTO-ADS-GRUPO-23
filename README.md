@@ -64,7 +64,7 @@ Conclusão: Este projeto combina hardware e software para criar uma solução de
    <ul>
       <li><p>Para que possa controlar o nosso carrinho basta tem baixado o software <a href="https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller">abaixo</a></p></li>
    </ul>
-   <h4>Prints da tela do celular </h4>
+   <h4>Prints da tela do celular</h4>
 </ul>
 
 
