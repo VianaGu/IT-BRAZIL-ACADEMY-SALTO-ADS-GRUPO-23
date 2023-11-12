@@ -10,11 +10,9 @@
 | Gustavo Oliveira Viana | Focal, Lider Dev | 35741406 |
 | Isabela Feitosa Scalet | Desenvolvedora | 35984961 |
 
-
 <!-- imagem para mostrar a base do projeto  -->
 ![Imagem de projeto base](assetsREADME/PrintVideo.png)
 ### Esse [video](https://www.youtube.com/watch?v=WWSqJVakfVY) que usamos de inpiração para o projeto
-
 
 ![Imagem do dia 10/10](assetsREADME/101023.jpg)
 ![Imagem do dia 17/10](assetsREADME/171023.jpg)
@@ -57,10 +55,17 @@ Resumo: O projeto em questão é uma implementação de um sistema de controle r
 
 Conclusão: Este projeto combina hardware e software para criar uma solução de controle remoto de carrinho versátil e interativa. A página da web em HTML, atua como um controle remoto virtual, permitindo aos usuários controlar o carrinho de forma intuitiva. A integração do ESP32 como uma ponte de comunicação e servidor web torna possível a comunicação eficaz entre a interface web e o carrinho, resultando em um projeto prático e de grande potencial para aplicações de controle remoto e robótica.
 
+### Para fazer. O que preciso?
+<ul>
+<h4>1- No celular</h4>
+   <ul>
+      <li><p>Para que possa controlar o nosso carrinho basta tem baixado o software <a href="https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller">abaixo</a></p></li>
+   </ul>
+   <h4>Prints da tela do celular</h4>
+</ul>
 
-
-### Dependências  
-
+![App Utilizado](assetsREADME/appUtilizado.jpeg)
+![App Utilizado](assetsREADME/ImagemInterna.jpeg)
 
 ### Lista de material📖
 - Placa esp8266 (NodeMCU)
