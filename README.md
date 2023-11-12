@@ -15,7 +15,6 @@
 ![Imagem de projeto base](assetsREADME/PrintVideo.png)
 ### Esse [video](https://www.youtube.com/watch?v=WWSqJVakfVY) que usamos de inpiração para o projeto
 
-
 ![Imagem do dia 10/10](assetsREADME/101023.jpg)
 ![Imagem do dia 17/10](assetsREADME/171023.jpg)
 
@@ -59,7 +58,19 @@ Conclusão: Este projeto combina hardware e software para criar uma solução de
 
 
 
-### Dependências  
+### Para fazer. O que preciso?
+<ul>
+<h4>1- No celular</h4>
+   <ul>
+      <li><p>Para que possa controlar o nosso carrinho basta tem baixado o software <a href="https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller">abaixo</a></p></li>
+   </ul>
+   <h4>Prints da tela do celular </h4>
+</ul>
+
+
+
+![App Utilizado](assetsREADME/appUtilizado.jpeg)
+![App Utilizado](assetsREADME/ImagemInterna.jpeg)
 
 
 ### Lista de material📖
