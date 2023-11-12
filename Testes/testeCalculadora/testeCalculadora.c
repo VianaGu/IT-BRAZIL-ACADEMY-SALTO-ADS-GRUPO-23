@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#include "soma.h"
+#include "subtrai.h"
 
 #define LIMITE_TESTE 30
 
@@ -14,10 +14,10 @@ else
 printf("Teste realizado com FALHA para os numeros %d e %d\n", primeiroNumero, segundoNumero);
 }
 
-bool TesteSoma(int primeiroNumero, int segundoNumero)
+bool TesteSub(int primeiroNumero, int segundoNumero)
 {
-int resultado = soma(primeiroNumero,segundoNumero);
-int operacaoEsperada = primeiroNumero + segundoNumero;
+int resultado = subtrai(primeiroNumero,segundoNumero);
+int operacaoEsperada = primeiroNumero - segundoNumero;
 
 bool testeValido = false;
 
@@ -30,10 +30,10 @@ return testeValido;
 
 }
 
-void ExecutaTesteSoma(int primeiroNumero, int segundoNumero)
+void ExecutaTesteSub(int primeiroNumero, int segundoNumero)
 {
 bool testeValido = false;
-testeValido = TesteSoma(primeiroNumero,segundoNumero);
+testeValido = TesteSub(primeiroNumero,segundoNumero);
 ValidaResultado(testeValido,primeiroNumero,segundoNumero);
 }
 
@@ -45,7 +45,7 @@ int segundoNumero = 2;
 printf("Teste de soma do primeiro lote somente com numeros positivos\n\n");
 for (int i = 0; i < LIMITE_TESTE; i++)
 {
-	ExecutaTesteSoma(primeiroNumero,segundoNumero);
+	ExecutaTesteSub(primeiroNumero,segundoNumero);
 	primeiroNumero++;
 	segundoNumero++;
 }
@@ -61,7 +61,7 @@ int segundoNumero = 2;
 
 for (int i = 0; i < LIMITE_TESTE; i++)
 {
-	ExecutaTesteSoma(primeiroNumero,segundoNumero);
+	ExecutaTesteSub(primeiroNumero,segundoNumero);
 	primeiroNumero--;
 	segundoNumero--;
 }
