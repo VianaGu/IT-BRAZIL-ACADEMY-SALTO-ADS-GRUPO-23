@@ -64,9 +64,6 @@ Conclusão: Este projeto combina hardware e software para criar uma solução de
    <h4>Prints da tela do celular</h4>
 </ul>
 
-![App Utilizado](assetsREADME/appUtilizado.jpeg)
-![App Utilizado](assetsREADME/ImagemInterna.jpeg)
-
 ### Lista de material📖
 - Placa esp8266 (NodeMCU)
 - Carrinho de controle remoto 
