@@ -1,8 +1,9 @@
-#define in1 6 // Entrada do motor 1
-#define in2 5 // Entrada do motor 1
-#define in3 11 // Entrada do motor 2
-#define in4 10 // Entrada do motor 2
+#include <ArduinoUnit.h>
 
+#define in3 6 // Entrada do motor 1
+#define in4 5 // Entrada do motor 1
+#define in1 11 // Entrada do motor 2
+#define in2 10 // Entrada do motor 2
 
 int dataIn[5] {0,0,0,0}; // Vetor dos dados completos que receberemos do aplicativo
 int in_byte = 0; // A informação em bytes que estamos recebendo a cada momento do aplicativo
@@ -12,11 +13,20 @@ unsigned long time1; // Variavel auxiliar para guardar tempo
 
 void setup() {
 Serial.begin(9600);  
+while(!Serial);
 pinMode(in1, OUTPUT);
 pinMode(in2, OUTPUT);
 pinMode(in3, OUTPUT);
 pinMode(in4, OUTPUT);
 pinMode(2, OUTPUT); // Definindo o pino do led
+}
+
+test(motoresFrenteETras){
+  analogWrite(in1, velMotor); 
+  digitalWrite(in2, LOW);
+  analogWrite(in3, velMotor);
+  digitalWrite(in4, LOW);
+  assertEqual(in1,HIGH);
 }
 
 void loop() {
@@ -81,4 +91,7 @@ void loop() {
     digitalWrite(in3, LOW);
     digitalWrite(in4, LOW);
   }
+  //testes
+  Test::run();
 }
+

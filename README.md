@@ -59,20 +59,30 @@ Conclusão: Este projeto combina hardware e software para criar uma solução de
 <ul>
 <h4>1- No celular</h4>
    <ul>
-      <li><p>Para que possa controlar o nosso carrinho basta tem baixado o software <a href="https://apps.eletrogate.com/joystick_app2.apk">abaixo</a></p></li>
+      <li><p>Para que possa controlar o nosso carrinho basta ter baixado o software <a href="https://apps.eletrogate.com/joystick_app2.apk">clicando aqui</a></p></li>
    </ul>
    <h4>Prints da tela do celular</h4>
 </ul>
 
 ### Lista de material📖
-- Placa esp8266 (NodeMCU)
-- Carrinho de controle remoto 
-- Celular (nenhuma marca específica) 
-- Mini Ponte H L298N
-- Buzzer Ativo
-- LEDS 
-- Resistores (220 Ohms para Cada LED)
-- Jumpers
 
+   1x Arduino Uno R3 + Cabo USB
+   1x Módulo Bluetooth RS232 HC-06
+   1x Módulo Ponte H Dupla L298N
+   1x Mini Protoboard 170 pontos
+   1x Chassi 2WD (2 rodas) Robô para Arduino
+   1x Motores DC 3V – 6V com Caixa de Redução e Eixo Duplo
+   2x Rodas 68mm para Chassi Robo Robótica
+   1x Roda Boba – Rodízio Giratório
+   1x Suporte para 4 pilhas AA
+   1x Jogo de parafusos e acessórios
+   1x Jumpers macho-fêmea 20 cm
+   1x Jumpers macho-macho 20 cm
+   1x Resistor 22K 1/4W (10 Unidades)
+   1x Resistor 10K 1/4W (10 Unidades)
+   1x Adaptador de bateria 9V
+   1x LED Difuso verde 5mm
+   4x Pilhas Alcalinas AA
+   1x Bateria Alcalina 9V
 
 
