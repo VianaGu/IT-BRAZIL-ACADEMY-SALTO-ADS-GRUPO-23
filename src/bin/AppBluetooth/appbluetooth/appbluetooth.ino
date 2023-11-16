@@ -21,7 +21,7 @@ pinMode(in4, OUTPUT);
 pinMode(2, OUTPUT); // Definindo o pino do led
 }
 
-test(motoresFrenteETras){
+test(motoresFrente){
   analogWrite(in1, velMotor); 
   digitalWrite(in2, LOW);
   analogWrite(in3, velMotor);
