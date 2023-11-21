@@ -18,6 +18,9 @@
 
 ![Imagem do dia 10/10](assetsREADME/IMG_1198.jpg)
 ![Imagem do dia 17/10](assetsREADME/IMG_1659.jpg)
+![Imagem do dia 13/11](assetsREADME/IMG_2333.jpg)
+![Imagem do dia 14/11](assetsREADME/IMG_2365.jpg)
+![Imagem do dia 14/11](assetsREADME/IMG_2366.jpg)
 
 ### O que seria o nosso projeto❓  
 
